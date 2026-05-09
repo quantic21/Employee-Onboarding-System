@@ -72,20 +72,20 @@ IT Provisioning → Policy Sign-off → Manager Intro
 
 ## 📂 Project Structure
 /backend
-├── EmployeeFunction (Create employee + Cognito + SES)
-├── upload_employee_document (S3 upload + Step Function trigger + SNS)
-├── get_onboarding_status
-├── reminder_check_lambda (SES reminders)
-├── it_provisioning_lambda
-├── policy_signoff_lambda
-├── manager_intro_lambda
-├── failure_handler_lambda
+- EmployeeFunction (Create employee + Cognito + SES)
+- upload_employee_document (S3 upload + Step Function trigger + SNS)
+- get_onboarding_status
+- reminder_check_lambda (SES reminders)
+- it_provisioning_lambda
+- policy_signoff_lambda
+- manager_intro_lambda
+- failure_handler_lambda
 
 /frontend
-├── index.html (HR + Employee portal)
+- index.html (HR + Employee portal)
 
 /step-function
-├── onboarding_workflow.json
+- onboarding_workflow.json
 
 
 ---
